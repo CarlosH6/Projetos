@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+
 .anim {
     animation-duration: 0.5s;
     animation-name: anim;
@@ -18,3 +21,62 @@
         0% {}
         100% {margin: -70px; margin-left: -33px; margin-right: -33px;}
     }
+
+    .line-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 1px;
+        margin-top: 50px;
+      }
+      
+      .line {
+        flex: 1;
+        height: 1px;
+        background-color: rgb(179, 179, 179);
+        border: none;
+      }
+      
+      .line-space {
+        width: 10px;
+        height: 1px;
+        background-color: transparent;
+        margin: 0 75px;
+      }
+      
+      #comments-list {
+        display: inline-flex;
+        flex-wrap: wrap;
+        margin-top: 30px;
+      }
+
+      .comment-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        width: 200px;
+        height: 200px;
+        margin: 10px;
+        padding: 10px;
+        background-color: white;
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+        border-radius: 10px;
+      }
+
+      .comment-container h3 {
+        font-family: Tilt Neon;
+        font-size: 15px;
+        font-weight: 500;
+      }
+
+      .comment-container img {
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+        border-radius: 2px;
+      }
+
+      .comment-container p {
+        font-family: Questrial;
+        font-size: 15px;
+        text-align: center;
+      }
