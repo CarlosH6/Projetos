@@ -1,5 +1,5 @@
 {
-    "doces": [
+    "items": [
       {
         "img": "img",
         "nome": "doce",
@@ -16,4 +16,4 @@
         "descricao": "descricao doce3"
       }
     ]
-  }
+}
