@@ -1,0 +1,19 @@
+{
+    "doces": [
+      {
+        "img": "img",
+        "nome": "doce",
+        "descricao": "descricao doce"
+      },
+      {
+        "img": "img2",
+        "nome": "doce2",
+        "descricao": "descricao doce2"
+      },
+      {
+        "img": "img3",
+        "nome": "doce3",
+        "descricao": "descricao doce3"
+      }
+    ]
+  }
